@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "League Spartan black";
+	src: url("Font/LeagueSpartan-Black.ttf");
+}
+
+@font-face {
+	font-family: "League Spartan light";
+	src: url("Font/LeagueSpartan-Light.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "League Spartan light", Arial, sans-serif;
+	background-image : url('../liege_bg.png');
+	background-size: cover;
+}
+
+.account-container {
+	background: #F9E87E;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	max-width: 400px;
+	padding: 4%;
+	border-radius: 10px;
+	position: fixed;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.account-container h2{
+	font-family: "League Spartan black";
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	display: inline-block;
+	width: 100%;
+	background-color: #007bff;
+	color: white;
+	padding: 15px 2px;
+	border: none;
+	border-radius: 4px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+a:hover {
+	background-color: #0056b3;
+	text-decoration: none;
+}

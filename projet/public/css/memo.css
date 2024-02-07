@@ -1,0 +1,75 @@
+@font-face {
+	font-family: "League Spartan black";
+	src: url("Font/LeagueSpartan-Black.ttf");
+}
+
+@font-face {
+	font-family: "League Spartan light";
+	src: url("Font/LeagueSpartan-Light.ttf");
+}
+
+body{
+	font-family: "League Spartan light";
+	background-image : url('../liege_bg.png');
+	background-size: cover;
+}
+
+.memo{
+	background-image : url('../postit.png');
+	background-size: cover;
+	object-fit: fill;
+	border-radius: 10px;
+	width : 20em;
+	height : 25em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding : 2em;
+	margin : 2em;
+}
+
+.memos-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+.memo h3 {
+	font-family: "League Spartan black";
+	margin-top: 0;
+	text-align : center;
+}
+
+.memo p{
+	color: black;
+	background: none;
+	text-align: left;
+	width: 100%;
+}
+
+.memo a{
+	color: black;
+	background: none;
+	text-align: center;
+	width: 100%;
+}
+
+p{
+	font-family: "League Spartan light", Arial, sans-serif;
+	color: black;
+	background-color: #F9E87E;
+	margin: auto;
+	padding: 10px;
+	display: inline-block;
+}
+
+.memo a {
+	color: #007bff;
+}
+
+a{
+	text-decoration: none;
+}
+

@@ -62,7 +62,7 @@ Avant de commencer, assurez-vous que vous avez installé sur votre système :
    Accédez au répertoire du projet cloné et installez les dépendances PHP en utilisant Composer :
 
    ```bash
-   cd projet_w31
+   cd projet_w31/projet/
    composer install
 
 1. **Configurer le fichier .env**

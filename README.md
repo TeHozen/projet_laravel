@@ -9,8 +9,6 @@ Les utilisateurs ont la possibilité de s'inscrire, se connecter, et d'interagir
 Une fois connectés, les utilisateurs peuvent facilement ajouter, consulter, éditer ou supprimer des mémos. Le système offre également la possibilité de modifier les paramètres de compte, y compris le mot de passe. Un aspect central de l'application est la gestion de la visibilité des mémos : chaque mémo peut être défini comme public ou privé, ce qui enrichit les possibilités de partage d'informations au sein de l'application.
 Les visiteurs non connectés peuvent accéder et visualiser les mémos publics dès la page de connexion et les consulter en détails.
 
-Conçu dans le cadre du module W31 de ma deuxième année en BUT informatique, ce projet facultatif visait à approfondir nos compétences en développement web à travers l'exploration de Laravel, tout en préparant efficacement les évaluations à venir.
-
 ## Présentation du Projet
 
 ### Écran de Connexion
